@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Paper accepted to AAAI2018: 'Fat- and Heavy-Tailed Behavior in Satisficing Planning'"
+date:   2017-11-10 10:00:00 +0200
+categories: jekyll update
+---
+

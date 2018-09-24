@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Paper accepted to MSR2018: 'Large-Scale Analysis of the Co-Commit Patterns of the Active Developers in GitHub's Top Repositories'"
+date:   2018-03-15 10:00:00 +0200
+categories: jekyll update
+---
+
