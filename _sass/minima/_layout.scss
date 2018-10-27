@@ -117,8 +117,14 @@
 
 .contact-list,
 .social-media-list {
+  margin-top: 10px;
   list-style: none;
   margin-left: 0;
+}
+
+.social-media-list li {
+  display: inline;
+  margin-right: 25px;
 }
 
 .footer-col-wrapper {

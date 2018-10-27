@@ -14,13 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Eldan Cohen
-email: ecohen [at] mie [dot] utoronto [dot] ca
+email: ecohen [at] mie utoronto ca
 description: >- # this means to ignore newlines until "baseurl:"
   PhD Candidate, Artificial Intelligence
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: eldan-cohen
 github_username:  eldanc
+scholar_user:  FUWruCQAAAAJ
+name: Eldan Cohen
 
 # Build settings
 markdown: kramdown

@@ -7,7 +7,7 @@ layout: home
 
 <div style="overflow: hidden; margin-bottom: 20px;">
 	<img src="http://tidel.mie.utoronto.ca/GroupPhotos/Eldan16.jpg" width="140" style="float: left; padding-right: 20px;" />
-	<div style="font-weight: bold; font-size: 20px;">Eldan Cohen</div> PhD Candidate, Artificial Intelligence <br /> University of Toronto
+	<h1 style="font-weight: bold; font-size: 24px; margin-bottom: 5px; margin-top: 5px;">Eldan Cohen</h1> <h2 style="font-size: 1em; margin-bottom: 0px;">PhD Candidate, Artificial Intelligence</h2> <div style="margin-bottom: 20px;">University of Toronto</div>
 	{%- include social.html -%}
 </div>
 
