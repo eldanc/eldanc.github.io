@@ -19,7 +19,7 @@ email: ecohen [at] mie utoronto ca
 description: >- # this means to ignore newlines until "baseurl:"
   PhD Candidate, Artificial Intelligence
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://eldanc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: eldan-cohen
 github_username:  eldanc
 scholar_user:  FUWruCQAAAAJ
@@ -30,11 +30,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 header_pages:
   - publications.md
   - projects.md
   - code.md
+
+defaults:
+  -
+    scope:
+      path:            "_posts/**/*.markdown"
+    values:
+      sitemap:         false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
