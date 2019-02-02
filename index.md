@@ -11,7 +11,7 @@ layout: home
 	{%- include social.html -%}
 </div>
 
-I am a PhD student in the <a href="http://tidel.mie.utoronto.ca/" style="color: black;">Toronto Intelligent Decision Engineering Laboratory</a>, supervised by <a href="https://www.mie.utoronto.ca/mie/faculty/beck" style="color: black;">Prof. J. Christopher Beck</a>. My research interests include automated planning and heuristic search, machine learning and scalable data mining, and empirical analysis of AI algorithms.
+I am a PhD student in the <a href="http://tidel.mie.utoronto.ca/" style="color: black;">Toronto Intelligent Decision Engineering Laboratory</a>, supervised by <a href="https://www.mie.utoronto.ca/mie/faculty/beck" style="color: black;">Prof. J. Christopher Beck</a>. My research interests include deep learning, heuristic search and optimization, and scalable data mining.
 
 <style>
 ul#keywords li {
@@ -26,10 +26,10 @@ ul#keywords li:last-child {
 </style>
 
 <div>Keywords: <ul id="keywords" style="display: inline; padding-left: 0px; margin-left: 0px;">
-  <li>Heuristic Search</li>
-  <li>Machine Learning</li>
+  <li>Deep Learning</li>
+  <li>Heuristic Search and Optimization</li>
+  <li>Automated Planning and Scheduling</li>
   <li>Data Mining</li>
-  <li>Optimization</li>
-  <li>Automated Planning</li>
+  <li>Machine Learning</li>
 </ul>
 </div>
