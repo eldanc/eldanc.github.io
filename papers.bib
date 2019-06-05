@@ -32,6 +32,7 @@
 	author = {Eldan Cohen and J. Christopher Beck},
 	title = {Fat- and Heavy-Tailed Behavior in Satisficing Planning},
 	booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
+	pages = {6136--6143},
 	year = {2018},
 	url = {http://tidel.mie.utoronto.ca/pubs/Cohen_AAAI18.pdf},
 	abstract = {In this work, we study the runtime distribution of satisficing planning in ensembles of random planning problems and in multiple runs of a randomized heuristic search on a single planning instance. Using common heuristic functions (such as FF) and six benchmark problem domains from the IPC, we find a heavy-tailed behavior, similar to that found in CSP and SAT. We investigate two notions of constrainedness, often used in the modeling of planning problems, and show that the heavy-tailed behavior tends to appear in relatively relaxed problems, where the required effort is, on average, low. Finally, we show that as with randomized restarts in CSP and SAT solving, recent search enhancements that incorporate randomness in the search process can help mitigate the effect of the heavy tail.}
@@ -41,7 +42,7 @@
 	author = {Eldan Cohen and Mariano P. Consens},
 	title = {Large-Scale Analysis of the Co-Commit Patterns of the Active Developers in GitHub's Top Repositories},
 	booktitle = {International Conference on Mining Software Repositories (MSR)},
-	pages     = {In Press},
+	pages     = {426--436},
 	year = {2018},
 	abstract = {GitHub, the largest code hosting site (with 25 million public active repositories and contributions from 6 million active users), provides an unprecedented opportunity to observe the collaboration patterns of software developers. Understanding the patterns behind the social coding phenomena is an active research area where the insights gained can guide the design of better collaboration tools, and can also help to identify and select developer talent.
 	In this paper, we present a large-scale analysis of the co-commit patterns in GitHub. We analyze 10 million commits made by 200 thousand developers to 16 thousand repositories, using 17 of the most popular programming languages over a period of 3 years. Although a large volume of data is included in our study, we pay close attention to the participation criteria for repositories and developers. We select repositories by reputation (based on star ranking), and we introduce the notion of active developer in GitHub (observing that a limited subset of developers is responsible for the vast majority of the commits). Using co-authorship networks, we analyze the co-commit patterns of the active developer network for each programming language. We observe that the active developer networks are less connected and more centralized than the general GitHub developer networks, and that the patterns vary significantly among languages. We compare our results to other collaborative environments (Wikipedia and scientific research networks), and we also describe the evolution of the co-commit patterns over time.}
@@ -51,6 +52,7 @@
 	author = {Eldan Cohen and J. Christopher Beck},
 	title = {Local Minima, Heavy Tails, and Search Effort for GBFS},
 	booktitle = {International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence (IJCAI-ECAI)},
+	pages = {4708--4714},
 	year = {2018},
 	url = {http://tidel.mie.utoronto.ca/pubs/Cohen_ijcai2018.pdf},
 	abstract = {Problem   difficulty   for   greedy   best   first   search (GBFS) is not entirely understood, though existing work points to deep local minima and poor correlation between the h-values and the distance to goal as  factors  that  have  significant  negative  effect  on the search effort.  In this work, we show that there is  a  very  strong  exponential  correlation  between the depth of the single deepest local minimum encountered in a search and the overall search effort. Furthermore, we find that the distribution of local minima  depth  changes  dramatically  based  on  the constrainedness of problems, suggesting an explanation for the previously observed heavy-tailed behavior in GBFS. In combinatorial search, a similar result led to the use of randomized restarts to escape deep subtrees with no solution and corresponding significant  speed-ups.   We  adapt  this  method  and propose a randomized restarting GBFS variant that improves GBFS performance by escaping deep local  minima,  and  does  so  even  in  the  presence  of other, randomization-based, search enhancements.}
