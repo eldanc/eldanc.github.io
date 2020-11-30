@@ -49,7 +49,27 @@
 	In this paper, we present a large-scale analysis of the co-commit patterns in GitHub. We analyze 10 million commits made by 200 thousand developers to 16 thousand repositories, using 17 of the most popular programming languages over a period of 3 years. Although a large volume of data is included in our study, we pay close attention to the participation criteria for repositories and developers. We select repositories by reputation (based on star ranking), and we introduce the notion of active developer in GitHub (observing that a limited subset of developers is responsible for the vast majority of the commits). Using co-authorship networks, we analyze the co-commit patterns of the active developer network for each programming language. We observe that the active developer networks are less connected and more centralized than the general GitHub developer networks, and that the patterns vary significantly among languages. We compare our results to other collaborative environments (Wikipedia and scientific research networks), and we also describe the evolution of the co-commit patterns over time.}
 }
 
-@InProceedings{IDA20ising,
+@InProceedings{IJCAI18local,
+	author = {Eldan Cohen and J. Christopher Beck},
+	title = {Local Minima, Heavy Tails, and Search Effort for GBFS},
+	booktitle = {International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence (IJCAI-ECAI)},
+	pages = {4708--4714},
+	year = {2018},
+	url = {http://tidel.mie.utoronto.ca/pubs/Cohen_ijcai2018.pdf},
+	abstract = {Problem   difficulty   for   greedy   best   first   search (GBFS) is not entirely understood, though existing work points to deep local minima and poor correlation between the h-values and the distance to goal as  factors  that  have  significant  negative  effect  on the search effort.  In this work, we show that there is  a  very  strong  exponential  correlation  between the depth of the single deepest local minimum encountered in a search and the overall search effort. Furthermore, we find that the distribution of local minima  depth  changes  dramatically  based  on  the constrainedness of problems, suggesting an explanation for the previously observed heavy-tailed behavior in GBFS. In combinatorial search, a similar result led to the use of randomized restarts to escape deep subtrees with no solution and corresponding significant  speed-ups.   We  adapt  this  method  and propose a randomized restarting GBFS variant that improves GBFS performance by escaping deep local  minima,  and  does  so  even  in  the  presence  of other, randomization-based, search enhancements.}
+}
+
+@InProceedings{ICML19empirical,
+	author = {Eldan Cohen and J. Christopher Beck},
+	title = {Empirical Analysis of Beam Search Performance Degradation in Neural Sequence Models},
+	booktitle = {International Conference on Machine Learning (ICML)},
+	pages = {1290--1299},
+	year = {2019},
+	url = {http://tidel.mie.utoronto.ca/pubs/cohen_icml19.pdf},
+	abstract = {Beam search is the most popular inference algorithm for decoding neural sequence models. Unlike greedy search, beam search allows for non-greedy local decisions that can potentially lead to a sequence with a higher overall probability. However, work on a number of applications has found that the quality of the highest probability hypothesis found by beam search degrades with large beam widths. We perform an empirical study of the behavior of beam search across three sequence synthesis tasks. We find that increasing the beam width leads to sequences that are disproportionately based on early, very low probability tokens that are followed by a sequence of tokens with higher (conditional) probability. We show that, empirically, such sequences are more likely to have a lower evaluation score than lower probability sequences without this pattern. Using the notion of search discrepancies from heuristic search, we hypothesize that large discrepancies are the cause of the performance degradation. We show that this hypothesis generalizes the previous ones in machine translation and image captioning. To validate our hypothesis, we show that constraining beam search to avoid large discrepancies eliminates the performance degradation.}
+}
+
+@InProceedings{IDA20Ising,
 	author = {Eldan Cohen and Avradip Mandal and Hayato Ushijima-Mwesigwa and Arnab Roy},
 	title = {Ising-Based Consensus Clustering on Specialized Hardware},
 	booktitle = {Symposium on Intelligent Data Analysis (IDA)},
@@ -57,3 +77,13 @@
 	year = {2020},
 	url = {https://link.springer.com/chapter/10.1007/978-3-030-44584-3_9},
 }
+
+@InProceedings{CPAIOR20Ising,
+	author = {Eldan Cohen and Arik Senderovich and J. Christopher Beck},
+	title = {An Ising Framework for Constrained Clustering on Special Purpose Hardware},
+	booktitle = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
+	pages={130--147},
+	year = {2020},
+	url = {https://tidel.mie.utoronto.ca/pubs/ConstrainedClustering_CPAIOR_2020.pdf},
+}
+
