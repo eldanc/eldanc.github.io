@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paper accepted to IDA 2020"
+title:  "Paper accepted to IDA 2020: 'Ising-Based Consensus Clustering on Specialized Hardware'"
 date:   2020-01-21 10:00:00 +0200
 categories: jekyll update
 ---
