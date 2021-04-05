@@ -10,7 +10,7 @@ list_title: News
 	<img src="Eldan16.jpg" width="140" style="float: left; padding-right: 20px;" />
 	<h1 style="font-weight: bold; font-size: 24px; margin-bottom: 5px; margin-top: 5px;">Eldan Cohen</h1> 
   <!-- <h2 style="font-size: 1em; margin-bottom: 0px;">Postdoctoral Research Fellow</h2>  -->
-  <h2 style="font-size: 1em; margin-bottom: 0px;">Assistant Professor, Industrial Engineering (Starting April 2021)</h2> 
+  <h2 style="font-size: 1em; margin-bottom: 0px;">Assistant Professor, Industrial Engineering</h2> 
   <div style="margin-bottom: 20px;">University of Toronto</div>
 	{%- include social.html -%}
 </div>
